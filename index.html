@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=2fcf50c3-38d1-4cda-a5a9-da7983b01137&lang=ru_RU"
+        type="text/javascript">
+        </script>
+
+    <link href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Map</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__title">Карта водоповильонов <span class="town-name">станицы Кагальницкая</span></div>
+        <ul class="header__menu">
+            <li class="header__auth icons" id="modal-auth"><a href="#"><img class="modal-auth"
+                        src="https://sun2-10.userapi.com/s/v1/if2/yc3FoUjVVFufXdcp1Siyd1WA-YCKe8seivrgc_5k-kSSKXR7HbCK2bD5NMCkx2B6Y7r0XHuHjx8zHPX3Ya_dPQ_r.jpg?size=848x843&quality=96&type=album"
+                        alt=""></a></li>
+            <li class="header__town icons"><a href="#"><img class="modal-town"
+                        src="https://sun2-4.userapi.com/s/v1/if2/1i55gC1oMe0B2ZJGYrwtrUpmezC7tRrO53-P14k0vPqfifY4Spj0tQgcwkyh4eoTOHMI2IXyq_eele_lhlDkMY3k.jpg?size=845x843&quality=96&type=album"
+                        alt=""></a></li>
+            <li class="header__info icons"><a href="#"><img class="modal-info"
+                        src="https://sun9-78.userapi.com/s/v1/if2/nnbGZ6T_GF1De0hw3equkwGgGnp3I7Xgoie38_8PvhX7Gn5EgF5_yZp0f8i-S_99xUym19kFuZ1LYGpgUkEfK8NS.jpg?size=842x843&quality=96&type=album"
+                        alt=""></a></li>
+        </ul>
+    </header>
+    <main>
+        <div id="map" class="map"></div>
+    </main>
+    <script src="js/utils.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/mapPoint.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
